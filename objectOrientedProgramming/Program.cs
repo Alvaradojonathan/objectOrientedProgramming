@@ -10,6 +10,20 @@ namespace objectOrientedProgramming
     {
         static void Main(string[] args)
         {
+            //Instantiating: Initializing a new object or creating a new instance.
+            //Objects need to be instantiated before use
+            //All objects of a specific type are created from the same template/Class.
+            //Each object instance has unique values.
+
+            //Instantiating format:
+            //ClassName objectName = new ClassName();
+            //Cat       mittens    = new Cat();
+            //Object = pen
+            //state = hasCap, hasInk, cylindrical, color, hasClip
+            //behaviors = writes, driesOut, clicks, leaks, breaks
+            //object = cup
+            //state = full, empty, paper, glass,
+            //behavior =
         }
     }
 }
