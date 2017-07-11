@@ -32,6 +32,10 @@ namespace objectOrientedProgramming
             get { return this.name; }
             set { this.name = value; }
         }
+        public int Age
+        {
+            get { return this.age; }
+        }
 
         //Constructor
         public Cat()

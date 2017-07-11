@@ -17,13 +17,7 @@ namespace objectOrientedProgramming
 
             //Instantiating format:
             //ClassName objectName = new ClassName();
-            //Cat       mittens    = new Cat();
-            //Object = pen
-            //state = hasCap, hasInk, cylindrical, color, hasClip
-            //behaviors = writes, driesOut, clicks, leaks, breaks
-            //object = cup
-            //state = full, empty, paper, glass,
-            //behavior =
+            Cat mittens = new Cat("kitty",2,"golden");
         }
     }
 }
