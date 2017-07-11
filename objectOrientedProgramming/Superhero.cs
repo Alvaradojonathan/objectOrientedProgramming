@@ -57,8 +57,18 @@ namespace objectOrientedProgramming
             this.power = power;
             this.hasCape = hasCape;
         }
-
-
+        
         //2 methods
+        public void BattleNemessis()
+        {
+            this.StrengthLvl -= 10;
+            this.HasCape = false;
+            this.Costume = "tattered";
+        }
+        public void AllyGained()
+        {
+            this.StrengthLvl += 10;
+            this.HasCape = false;
+        }
     }
 }

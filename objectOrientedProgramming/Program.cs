@@ -19,11 +19,27 @@ namespace objectOrientedProgramming
             //ClassName objectName = new ClassName();
 
 
+            Superhero firstHero = new Superhero();
+            //firstHero.StrengthLvl = 100;
+            //firstHero.HasCape = true;
 
+            //firstHero.BattleNemessis();
+            //Console.WriteLine(firstHero.HasCape);
+            //Console.WriteLine(firstHero.StrengthLvl);
 
+            //firstHero.BattleNemessis();
+            //Console.WriteLine(firstHero.HasCape + firstHero.Costume);
+            //Console.WriteLine(firstHero.StrengthLvl);
 
+            Superhero secondHero = new Superhero("Diamond Daniel");
+            //Console.WriteLine(secondHero.StrengthLvl);
 
+            //secondHero.AllyGained();
+            //Console.WriteLine(secondHero.StrengthLvl);
 
+            Superhero thirdHero = new Superhero("black Kevlar body armor", "The Best Ever", 1000, "Being the best!", false );
+            thirdHero.BattleNemessis();
+            Console.WriteLine("Oh no! My costume is {0} and my strength has diminished to {1}.", thirdHero.Costume, thirdHero.StrengthLvl);
 
 
 
