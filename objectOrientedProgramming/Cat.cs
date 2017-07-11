@@ -55,7 +55,7 @@ namespace objectOrientedProgramming
             {
                 isHungry = false;
             }
-            Console.WriteLine("Is this cat hungry?" + isHungry);
+            Console.WriteLine("Is the cat hungry? " + isHungry);
         }
 
 

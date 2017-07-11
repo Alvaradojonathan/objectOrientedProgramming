@@ -17,7 +17,16 @@ namespace objectOrientedProgramming
 
             //Instantiating format:
             //ClassName objectName = new ClassName();
-            Cat mittens = new Cat("kitty",2,"golden");
+            //Cat kitty = new Cat("kitty",2,"golden");
+            //Cat oz = new Cat();
+            //kitty.Name = "Oz";
+            //Console.WriteLine(kitty.Name);
+            //Console.WriteLine(kitty.Age);
+            //kitty.Eat();
+            Dog sparky = new Dog(2.3, 15, "short");
+            Console.WriteLine("Height: " + sparky.Height + "\nHair Length: " + sparky.HairLength);
+            sparky.Bark();
+            sparky.Cuddle();
         }
     }
 }
